@@ -1,3 +1,3 @@
 FROM tomcat
-COPY /tmp/build/inputs /usr/lib/tomcat/webapps
+COPY /targets/*.jar /usr/lib/tomcat/webapps
 
